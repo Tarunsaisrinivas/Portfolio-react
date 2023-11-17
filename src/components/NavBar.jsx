@@ -6,10 +6,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Styles/Navbar.css';
 import logo from '../assets/image-removebg-preview.png';
-
+import ProgressBar from "react-scroll-progress-bar";
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary background" >
+      <ProgressBar/>
       <Container >
         <Navbar.Brand href="#home ">
             <img src={logo} alt="" height={65} />

@@ -15,11 +15,11 @@ const Skills = () => {
           <div className="skillspagecontainer text-center" >
           <div className="skillsPage">
             <div className="per ">
-              <CircularProgressBar style={{ width: "100px" }} percentage={90} />
+              <CircularProgressBar style={{ width: "100px" }} percentage={100} />
               <h3>HTML</h3>
             </div>
             <div className="per ">
-              <CircularProgressBar percentage={80} />
+              <CircularProgressBar percentage={100} />
               <h3>CSS</h3>
             </div>
             <div className="per ">

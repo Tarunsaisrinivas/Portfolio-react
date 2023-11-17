@@ -23,6 +23,7 @@
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show
 .navbar-toggler {
+  transition:1s ease-in-out;
     color: #8F68EA;
   }
 .button{

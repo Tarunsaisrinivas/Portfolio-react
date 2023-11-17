@@ -13,7 +13,7 @@ const Home = () => {
     <>
 
       <header id="about" className="HomeContainer" style={{ height: "100vh" }}>
-        <Fade left>
+        <Fade top>
         <div className="left">
           <h1>
             Hi,I am <br />
